@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Raleway', sans-serif;        
+}
+section:target{
+    padding-top: 96px;
+}
+/* Header styles */
+.navbar{
+    background-color: #000;
+    z-index: 1000;
+}
+.active{
+    color: red!important;
+}
+.navbar-toggler:focus{
+border: 1px solid red!important;
+}
+.cool-link{    
+    position: relative;
+    width:fit-content
+}
+.cool-link::after{
+    content: '';
+    display: block;
+    background-color: red;
+    width: 0%;
+    height:2px;
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transition: width .3s ease;
+    -webkit-transition: width .3s ease;
+    -moz-transition: width .3s ease;
+    -ms-transition: width .3s ease;
+    -o-transition: width .3s ease;
+    
+}
+.cool-link:hover::after{
+    width: 100%;
+}
+
+/* banner styles */
+
+.carousel-item{
+    height: calc(100vh - 96px);
+    background-position: start!important;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,.5);
+}
+.carousel-caption{
+    bottom:120px;
+}
+/* heading styles */
+.headings{
+    position: relative;
+    margin: 30px auto;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+}
+.headings i{
+    position: absolute;
+    bottom:-15px;
+    left: 47%;
+    color:red;
+}
+.main-heading{    
+    color: #777;
+    font-family: 'Sofia';
+}
+.main-heading::before{
+content:'';
+display: block;    
+width:40%;
+height: 1px;
+background-color: red;
+position: absolute;
+bottom:-10px;
+left:0;
+}
+.main-heading::after{
+    content:'';
+    display: block;    
+    width:40%;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    bottom:-10px;
+    right: 0;
+    }
+    
+.about-img img{
+    width:100%;
+    height: 100%;
+}
+
+
+/* about sectiobn  */
+
+.about-img img{
+    height:400px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+@media(min-width:768px){
+    .cool-link:hover::after{
+        width: calc(100% - 1rem);
+    }
+}
+
+
+
