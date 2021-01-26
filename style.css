@@ -13,10 +13,11 @@ section:target{
     z-index: 1000;
 }
 .navbar .nav-link{
+    color:#ccc!important;
     font-size: 19px;
     letter-spacing: 1px;
 }
-.activate{
+.nav-link.activate{
     color: red!important;
 }
 .navbar-toggler:focus{
@@ -263,6 +264,11 @@ outline: none!important;
     background-color: rgba(255, 0, 0, 0.726);
     color:#fff;    
 }
+
+/* Maps styles */
+#map {
+    height: 100%;    
+  }
 
 @media(min-width:568px){
     .about-img img{        
