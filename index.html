@@ -17,7 +17,10 @@
 </head>
 
 <body>
+    <!-- Audio -->
+    <audio id="owlAudio" src="./assets/owl.mp3"></audio>
 
+    <!-- Audio end -->
 
     <!-- Home Start -->
 
@@ -32,10 +35,10 @@
                         class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="myMenu">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item cool-link"><a href="#home" class="nav-link active">Home</a></li>
+                        <li class="nav-item cool-link"><a href="#home" class="nav-link activate">Home</a></li>
                         <li class="nav-item cool-link"><a href="#about" class="nav-link">About</a></li>
-                        <li class="nav-item cool-link"><a href="gallery" class="nav-link">Gallery</a></li>
-                        <li class="nav-item cool-link"><a href="contact" class="nav-link">Contact</a></li>
+                        <li class="nav-item cool-link"><a href="#menu" class="nav-link">Menu</a></li>
+                        <li class="nav-item cool-link"><a href="#contact" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -77,13 +80,12 @@
                 </div>
             </div>
             <a href="#banner-carousel" class="carousel-control-prev" data-slide="prev" role="button">
-                <span class="carousel-control-prev-icon"></span>
+                <i class="fas fa-chevron-left fa-lg"></i>
             </a>
             <a href="#banner-carousel" class="carousel-control-next" data-slide="next" role="button">
-                <span class="carousel-control-next-icon"></span>
+                <i class="fas fa-chevron-right fa-lg"></i>
             </a>
         </div>
-
         </div>
     </section>
 
@@ -106,10 +108,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 p-4 about-img">
-                    <img src="./assets/img/about-img1.jpg" alt="">
+                <div class="col-sm-4 col-lg-6 p-4 about-img align-self-center">
+                    <img src="./assets/img/about-img1.jpg" alt="" data-aos="fade-right">
                 </div>
-                <div class="col-sm-6 p-3">
+                <div class="col-sm-8 col-lg-6 p-3">
                     <div class="headings">
                         <h3 class="main-heading">A Small Detail of Us</h3>
                         <i class="fas fa-carrot"></i>
@@ -127,8 +129,8 @@
                     <!-- <div class="text-center text-danger"><i class="fas fa-signature"></i></div> -->
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-6 p-3">
+            <div class="row py-4">
+                <div class="col-sm-8 col-lg-6 p-3">
                     <div class="headings">
                         <h3 class="main-heading">Master Chef</h3>
                         <i class="fas fa-carrot"></i>
@@ -145,13 +147,357 @@
                         quality food services in these many years.</p>
                     <!-- <div class="text-center text-danger"><i class="fas fa-signature"></i></div> -->
                 </div>
-                <div class="col-sm-6 p-4 about-img">
-                    <img src="./assets/img/about-img2.jpg" alt="">
+                <div class="col-sm-4 col-lg-6 p-4 about-img align-self-center">
+                    <img src="./assets/img/about-img2.jpg" alt="" data-aos="fade-left">
                 </div>
 
             </div>
         </div>
+        <div class="container-fluid">
+            <div class="row py-5 features">
+                <div class="col-sm-4 text-center">
+                    <div class="icon-wrapper p-5 rounded-circle d-inline-block"><i class="fas fa-heart fa-3x"></i>
+                    </div>
+                    <div class="headings">
+                        <h3 class="main-heading">We Serve With Passion</h3>
+                        <i class="fas fa-carrot"></i>
+                    </div>
+                    <p>Our promise is just not a words, as it is passion & Love for foods, Its about soul that feels
+                        even an atom of every ingredients. The best quality catering food will be served.</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="icon-wrapper p-5 rounded-circle d-inline-block"><i class="fas fa-seedling fa-3x"></i>
+                    </div>
+                    <div class="headings">
+                        <h3 class="main-heading">Healthy Foods</h3>
+                        <i class="fas fa-carrot"></i>
+                    </div>
+                    <p>Fruit and vegetables are part of a balanced diet and can help us stay healthy. That’s why it so
+                        important that we get enough of them. Eating is necessity, But Cooking is an Art. So Let us do
+                        your Master piece. Just one call</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="icon-wrapper p-5 rounded-circle d-inline-block"><i class="fas fa-clock fa-3x"></i>
+                    </div>
+                    <div class="headings">
+                        <h3 class="main-heading">Open All Day
+                        </h3>
+                        <i class="fas fa-carrot"></i>
+                    </div>
+                    <p>We provide catering service for Brahmin’s events, Outdoor catering, Wedding Food service,
+                        Birthday party Catering, and any Other Occasional and Traditional Events with best food with
+                        quality menus</p>
+                </div>
+            </div>
+        </div>
+        <div class="slide-area">
+            <div class="container">
+                <div class="row testimonials py-5">
+                    <div class="col-sm-12">
+                        <div class="carousel slide" id="ratingCarousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#ratingCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#ratingCarousel" data-slide-to="1"></li>
+                                <li data-target="#ratingCarousel" data-slide-to="2"></li>
+                                <li data-target="#ratingCarousel" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="img-area">
+                                        <img src="assets/img/rating.jpg">
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <div class="headings">
+                                            <h4 class="main-heading text-light">Subbu Balineni
+                                            </h4>
+                                            <i class="fas fa-carrot"></i>
+                                        </div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odio omnis
+                                            ipsam itaque facilis, perferendis obcaecati, aut assumenda dolore
+                                            consequuntur
+                                            officiis illum officia aperiam. Consectetur necessitatibus libero maiores
+                                            quis
+                                            voluptate.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="img-area">
+                                        <img src="assets/img/rating3.jpg">
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <div class="headings">
+                                            <h4 class="main-heading text-light">Mani Dasari
+                                            </h4>
+                                            <i class="fas fa-carrot"></i>
+                                        </div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odio omnis
+                                            ipsam itaque facilis, perferendis obcaecati, aut assumenda dolore
+                                            consequuntur
+                                            officiis illum officia aperiam. Consectetur necessitatibus libero maiores
+                                            quis
+                                            voluptate.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="img-area">
+                                        <img src="assets/img/rating2.jpg">
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <div class="headings">
+                                            <h4 class="main-heading text-light">Prudhvi Ch
+                                            </h4>
+                                            <i class="fas fa-carrot"></i>
+                                        </div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odio omnis
+                                            ipsam itaque facilis, perferendis obcaecati, aut assumenda dolore
+                                            consequuntur
+                                            officiis illum officia aperiam. Consectetur necessitatibus libero maiores
+                                            quis
+                                            voluptate.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="img-area">
+                                        <img src="assets/img/rating4.jpg">
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <div class="headings">
+                                            <h4 class="main-heading text-light">Shank G
+                                            </h4>
+                                            <i class="fas fa-carrot"></i>
+                                        </div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odio omnis
+                                            ipsam itaque facilis, perferendis obcaecati, aut assumenda dolore
+                                            consequuntur
+                                            officiis illum officia aperiam. Consectetur necessitatibus libero maiores
+                                            quis
+                                            voluptate.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#ratingCarousel" class="carousel-control-prev" data-slide="prev"><i
+                                    class="fas fa-chevron-left fa-lg"></i></a>
+                            <a href="#ratingCarousel" class="carousel-control-next" data-slide="next"><i
+                                    class="fas fa-chevron-right fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- Menu starts -->
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="headings">
+                        <h1 class="main-heading">Our Menu</h1>
+                        <i class="fab fa-pagelines"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="headings">
+                        <h3 class="main-heading">Veg Section</h3>
+                        <i class="fas fa-carrot"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/beetroot-fry.jpg"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Beet Root Fry</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/carrot-fry.jpg"
+                            alt=" Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Carrot Fry</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/potato-fry.jpg"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Potato Fry</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/palak-paneer.jpg"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Palak Paneer</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/mushroom-curry.jpg"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Mushroom Curry</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/egg-curry.jpg"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Egg Curry</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/brinjal-1.jpg"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Brinjal Curry</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/brinjal-2.jpg"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Brinjal Fry</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/bhindi.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Bhindi Fry</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/dal.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Tomato Dal</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/tomato-curry.jpg"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Tomato Curry</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/sambar.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Sambar</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/beetroot-fry.jpg"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Beet Root Fry</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/beetroot-fry.jpg"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Beet Root Fry</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/beetroot-fry.jpg"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Beet Root Fry</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow mt-4 recipe-card">
+                        <img class="card-img-top recipe-img" src="./assets/img/recipes/beetroot-fry.jpg"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="bg-warning py-2 text-white">Beet Root Fry</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="headings">
+                        <h3 class="main-heading">Non - Veg Section</h3>
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Menu ends -->
+
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
