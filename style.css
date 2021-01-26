@@ -206,18 +206,63 @@ left:0;
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;    
 }
-.recipe-card:hover{
-    transform:translateY(-10px);
-    -webkit-transform:translateY(-10px);
-    -moz-transform:translateY(-10px);
-    -ms-transform:translateY(-10px);
-    -o-transform:translateY(-10px);
-    -webkit-transform:translateY();
+.recipe-card h5{
+    background-color: rgb(13, 155, 155);
+    clip-path: polygon(0 0,100% 0,90% 50%,100% 100%,0 100%);
 }
 .recipe-img{    
     height:250px;   
 }
 
+/* Contact Page */
+
+#contact{
+    background-color: #303030;
+    color:#ccc;
+}
+#contact h1{
+    color:#ccc;
+}
+#contact input,#contact textarea{
+    color:#ccc;    
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+#contact input:focus,#contact textarea:focus{
+border: 1px solid #ccc;
+box-shadow:0 0 10px #ccc;
+outline: none!important;
+}
+.submit-btn{
+    padding:10px 30px;
+    display: block;
+    width:100%;
+    border: 3px solid red;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: red;
+    background-color: transparent;
+    
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.submit-btn:hover{
+    background-color: rgba(255, 0, 0, 0.726);
+    color:#fff;    
+}
 
 @media(min-width:568px){
     .about-img img{        
@@ -230,6 +275,14 @@ left:0;
     }
     .about-img img{        
         height:400px;
+    }
+    .recipe-card:hover{
+        transform:translateY(-10px);
+        -webkit-transform:translateY(-10px);
+        -moz-transform:translateY(-10px);
+        -ms-transform:translateY(-10px);
+        -o-transform:translateY(-10px);
+        -webkit-transform:translateY();
     }
 }
 
