@@ -54,7 +54,7 @@ border: 1px solid red!important;
 
 /* banner styles */
 
-#banner-carousel .carousel-item{
+#banner-carousel .carousel-item{    
     height: calc(100vh - 96px);
     background-position: start!important;
 }
@@ -127,7 +127,9 @@ left:0;
 
 
 /* about sectiobn  */
-
+.about-img{
+    overflow-x: hidden;
+}
 .about-img img{
     width:100%;
     height:250px;
