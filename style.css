@@ -1,3 +1,23 @@
+::-webkit-scrollbar{
+width:8px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow:0 0 3px gray;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #aaa;
+    border:2px solid #fff;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
 html{
     scroll-behavior: smooth;
 }
