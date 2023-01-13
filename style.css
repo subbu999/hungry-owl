@@ -37,7 +37,7 @@ section:target{
     font-size: 19px;
     letter-spacing: 1px;
 }
-.nav-link.activate{
+.nav-link.active{
     color: red!important;
 }
 .navbar-toggler:focus{
